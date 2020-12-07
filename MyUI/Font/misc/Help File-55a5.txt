@@ -1,0 +1,77 @@
+Font Info
+==============
+Raven 2 Studio Presents: Capsule X Pro Medium Digital Typeface. 
+
+Capsule X Pro is a stylish sans-serif font designed in vector format. Inspired from self esteem, mental peace, 
+enlightenment and motivation symbolized as capsule- A driving force. The design is intended to be highly readable, 
+reasonably compact, and visually attractive. Being visual appealing, this font can be used in various design projects.
+
+FREE UPPERCASE VERSION IS ALLOWED FOR PERSONAL AND COMMERCIAL USE.  
+FULL COMMERCIAL VERSION SUPPORTS EXTENDED LATIN CHARACTERS.
+
+
+Font type: Open Type PS
+Weight: 500
+Font styles: Medium
+Font Author: Mahbub Razzak
+Designer Page: https://www.behance.net/raven2
+Get Full version: http://graphicriver.net/user/1amyou
+
+
+
+Installation Instructions:
+==============
+
+
+All Windows versions
+----------------------------
+Drag and drop (or copy and paste) the font file to the folder C:\Windows\Fonts
+
+Windows 10
+----------------------------
+Go to Control Panel > Appearance and Personalization > Fonts. Drag/copy & paste font file there.
+
+
+Windows 7 and Vista:
+----------------------------
+
+Method1: Extract font files, right click on font file then choose install.
+
+Method2: Open Control Panel, then click on fonts and drag files into  
+the folder.
+
+
+Windows XP:
+-----------------
+
+Method1: Extract font files, open Control Panel then go to fonts and  
+choose file from menu bar, then Install New Font. Navigate to location  
+of font files and click ok.
+
+Method2: Go to windows main folder, then go to fonts folder, drag  
+extracted font files into fonts folder. 
+
+
+Macintosh 9.x or 8.x:
+---------------------------
+
+- Close any open application.
+- Locate font files.
+- Drag font files to the system folder.
+
+
+Macintosh OS X:
+----------------------
+
+- Close any open application.
+- Locate font files.
+- Drag font files  to the Fonts folder of the Library folder .
+
+
+ 
+
+
+
+
+
+

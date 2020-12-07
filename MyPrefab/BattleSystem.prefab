@@ -1,0 +1,283 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6645987033746350863
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6645987033746350896}
+  - component: {fileID: 6645987033746350897}
+  m_Layer: 0
+  m_Name: BattleSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6645987033746350896
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6645987033746350863}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.45, y: 1.86, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6645987033746350897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6645987033746350863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ff9cbef16db5e745967cc6305b5ad88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wave:
+  - enemies:
+    - enemy: {fileID: 6878967103679178789, guid: a6919c9a928cc84458bad5d85e1fc7e4, type: 3}
+      number: 5
+      time_between_spawn: 5
+    theme: Wave 1-4
+  - enemies:
+    - enemy: {fileID: 6878967103679178789, guid: a6919c9a928cc84458bad5d85e1fc7e4, type: 3}
+      number: 6
+      time_between_spawn: 5
+    - enemy: {fileID: 3436723387578573558, guid: 80f485db35e7de64c830b4447458e2c1, type: 3}
+      number: 4
+      time_between_spawn: 10
+    theme: Wave 1-4
+  - enemies:
+    - enemy: {fileID: 6878967103679178789, guid: a6919c9a928cc84458bad5d85e1fc7e4, type: 3}
+      number: 9
+      time_between_spawn: 5
+    - enemy: {fileID: 3436723387578573558, guid: 80f485db35e7de64c830b4447458e2c1, type: 3}
+      number: 6
+      time_between_spawn: 10
+    - enemy: {fileID: 6320514903983330975, guid: a8026cb39d0b98a49a6858442b6e2b6d, type: 3}
+      number: 5
+      time_between_spawn: 13
+    theme: Wave 1-4
+  - enemies:
+    - enemy: {fileID: 6878967103679178789, guid: a6919c9a928cc84458bad5d85e1fc7e4, type: 3}
+      number: 5
+      time_between_spawn: 5
+    - enemy: {fileID: 6320514903983330975, guid: a8026cb39d0b98a49a6858442b6e2b6d, type: 3}
+      number: 7
+      time_between_spawn: 10
+    - enemy: {fileID: 5199303801034058232, guid: 867b8fe26e985214aa3263927a6dca3c, type: 3}
+      number: 6
+      time_between_spawn: 12
+    - enemy: {fileID: 3436723387578573558, guid: 80f485db35e7de64c830b4447458e2c1, type: 3}
+      number: 10
+      time_between_spawn: 8
+    theme: Wave 1-4
+  - enemies:
+    - enemy: {fileID: 1581772707458537350, guid: 23abce58ed71bed44bfa0ba6bb8f7454, type: 3}
+      number: 1
+      time_between_spawn: 0
+    theme: Boss 1
+  - enemies:
+    - enemy: {fileID: 4153572936162438386, guid: c49752a37f795374a87205a3037555f6, type: 3}
+      number: 5
+      time_between_spawn: 7
+    theme: Wave 6-9
+  - enemies:
+    - enemy: {fileID: 4153572936162438386, guid: c49752a37f795374a87205a3037555f6, type: 3}
+      number: 5
+      time_between_spawn: 10
+    - enemy: {fileID: 6878967103679178789, guid: a6919c9a928cc84458bad5d85e1fc7e4, type: 3}
+      number: 6
+      time_between_spawn: 10
+    - enemy: {fileID: 6320514903983330975, guid: a8026cb39d0b98a49a6858442b6e2b6d, type: 3}
+      number: 4
+      time_between_spawn: 15
+    theme: Wave 6-9
+  - enemies:
+    - enemy: {fileID: 3425770866196807321, guid: 881f87ec4f661fe4996ce8d50e902bc7, type: 3}
+      number: 5
+      time_between_spawn: 15
+    - enemy: {fileID: 4153572936162438386, guid: c49752a37f795374a87205a3037555f6, type: 3}
+      number: 10
+      time_between_spawn: 5
+    theme: Wave 6-9
+  - enemies:
+    - enemy: {fileID: 4153572936162438386, guid: c49752a37f795374a87205a3037555f6, type: 3}
+      number: 10
+      time_between_spawn: 5
+    - enemy: {fileID: 3425770866196807321, guid: 881f87ec4f661fe4996ce8d50e902bc7, type: 3}
+      number: 10
+      time_between_spawn: 10
+    - enemy: {fileID: 5305333834299354997, guid: a3ee04233a1c0d1479b6484fd50171f5, type: 3}
+      number: 1
+      time_between_spawn: 15
+    theme: Wave 6-9
+  - enemies:
+    - enemy: {fileID: 3464220630414202881, guid: 23ce653c9874bca4e889907471d8b548, type: 3}
+      number: 1
+      time_between_spawn: 0
+    theme: Boss 2
+  - enemies:
+    - enemy: {fileID: 3425770866196807321, guid: 881f87ec4f661fe4996ce8d50e902bc7, type: 3}
+      number: 10
+      time_between_spawn: 10
+    - enemy: {fileID: 3363737221312297193, guid: 9fc73075bf1004842acdf867c2173a2a, type: 3}
+      number: 5
+      time_between_spawn: 5
+    - enemy: {fileID: 4153572936162438386, guid: c49752a37f795374a87205a3037555f6, type: 3}
+      number: 10
+      time_between_spawn: 5
+    theme: Wave 11-14
+  - enemies:
+    - enemy: {fileID: 4153572936162438386, guid: c49752a37f795374a87205a3037555f6, type: 3}
+      number: 10
+      time_between_spawn: 5
+    - enemy: {fileID: 3363737221312297193, guid: 9fc73075bf1004842acdf867c2173a2a, type: 3}
+      number: 5
+      time_between_spawn: 7
+    - enemy: {fileID: 3425770866196807321, guid: 881f87ec4f661fe4996ce8d50e902bc7, type: 3}
+      number: 7
+      time_between_spawn: 9
+    - enemy: {fileID: 5305333834299354997, guid: a3ee04233a1c0d1479b6484fd50171f5, type: 3}
+      number: 6
+      time_between_spawn: 13
+    theme: Wave 11-14
+  - enemies:
+    - enemy: {fileID: 4153572936162438386, guid: c49752a37f795374a87205a3037555f6, type: 3}
+      number: 10
+      time_between_spawn: 5
+    - enemy: {fileID: 6320514903983330975, guid: a8026cb39d0b98a49a6858442b6e2b6d, type: 3}
+      number: 10
+      time_between_spawn: 7
+    - enemy: {fileID: 5199303801034058232, guid: 867b8fe26e985214aa3263927a6dca3c, type: 3}
+      number: 10
+      time_between_spawn: 7
+    - enemy: {fileID: 3425770866196807321, guid: 881f87ec4f661fe4996ce8d50e902bc7, type: 3}
+      number: 3
+      time_between_spawn: 10
+    - enemy: {fileID: 5305333834299354997, guid: a3ee04233a1c0d1479b6484fd50171f5, type: 3}
+      number: 2
+      time_between_spawn: 15
+    theme: Wave 11-14
+  - enemies:
+    - enemy: {fileID: 3363737221312297193, guid: 9fc73075bf1004842acdf867c2173a2a, type: 3}
+      number: 10
+      time_between_spawn: 5
+    - enemy: {fileID: 3917117079549691510, guid: 9b31e5d5b126bfd4e823fd0812815e6b, type: 3}
+      number: 5
+      time_between_spawn: 15
+    theme: Wave 11-14
+  - enemies:
+    - enemy: {fileID: 7133837906647778062, guid: a896e514c578e6c438fa764317f24b47, type: 3}
+      number: 1
+      time_between_spawn: 0
+    theme: Boss 3
+  - enemies:
+    - enemy: {fileID: 3363737221312297193, guid: 9fc73075bf1004842acdf867c2173a2a, type: 3}
+      number: 10
+      time_between_spawn: 5
+    - enemy: {fileID: 5305333834299354997, guid: a3ee04233a1c0d1479b6484fd50171f5, type: 3}
+      number: 8
+      time_between_spawn: 7
+    - enemy: {fileID: 3917117079549691510, guid: 9b31e5d5b126bfd4e823fd0812815e6b, type: 3}
+      number: 5
+      time_between_spawn: 12
+    theme: Wave 16-19
+  - enemies:
+    - enemy: {fileID: 6878967103679178789, guid: a6919c9a928cc84458bad5d85e1fc7e4, type: 3}
+      number: 10
+      time_between_spawn: 5
+    - enemy: {fileID: 4153572936162438386, guid: c49752a37f795374a87205a3037555f6, type: 3}
+      number: 7
+      time_between_spawn: 6
+    - enemy: {fileID: 3363737221312297193, guid: 9fc73075bf1004842acdf867c2173a2a, type: 3}
+      number: 5
+      time_between_spawn: 7
+    - enemy: {fileID: 4697328654112201530, guid: 153fa6b908568be448ba68b21534898b, type: 3}
+      number: 5
+      time_between_spawn: 10
+    theme: Wave 16-19
+  - enemies:
+    - enemy: {fileID: 4153572936162438386, guid: c49752a37f795374a87205a3037555f6, type: 3}
+      number: 10
+      time_between_spawn: 5
+    - enemy: {fileID: 3363737221312297193, guid: 9fc73075bf1004842acdf867c2173a2a, type: 3}
+      number: 5
+      time_between_spawn: 6
+    - enemy: {fileID: 3425770866196807321, guid: 881f87ec4f661fe4996ce8d50e902bc7, type: 3}
+      number: 10
+      time_between_spawn: 7
+    - enemy: {fileID: 5305333834299354997, guid: a3ee04233a1c0d1479b6484fd50171f5, type: 3}
+      number: 8
+      time_between_spawn: 8
+    - enemy: {fileID: 3917117079549691510, guid: 9b31e5d5b126bfd4e823fd0812815e6b, type: 3}
+      number: 8
+      time_between_spawn: 9
+    - enemy: {fileID: 4697328654112201530, guid: 153fa6b908568be448ba68b21534898b, type: 3}
+      number: 5
+      time_between_spawn: 10
+    theme: Wave 16-19
+  - enemies:
+    - enemy: {fileID: 6878967103679178789, guid: a6919c9a928cc84458bad5d85e1fc7e4, type: 3}
+      number: 10
+      time_between_spawn: 5
+    - enemy: {fileID: 4153572936162438386, guid: c49752a37f795374a87205a3037555f6, type: 3}
+      number: 10
+      time_between_spawn: 6
+    - enemy: {fileID: 3363737221312297193, guid: 9fc73075bf1004842acdf867c2173a2a, type: 3}
+      number: 5
+      time_between_spawn: 7
+    - enemy: {fileID: 3436723387578573558, guid: 80f485db35e7de64c830b4447458e2c1, type: 3}
+      number: 10
+      time_between_spawn: 8
+    - enemy: {fileID: 5199303801034058232, guid: 867b8fe26e985214aa3263927a6dca3c, type: 3}
+      number: 10
+      time_between_spawn: 8
+    - enemy: {fileID: 6320514903983330975, guid: a8026cb39d0b98a49a6858442b6e2b6d, type: 3}
+      number: 10
+      time_between_spawn: 8
+    - enemy: {fileID: 3425770866196807321, guid: 881f87ec4f661fe4996ce8d50e902bc7, type: 3}
+      number: 5
+      time_between_spawn: 8
+    - enemy: {fileID: 5305333834299354997, guid: a3ee04233a1c0d1479b6484fd50171f5, type: 3}
+      number: 5
+      time_between_spawn: 8
+    - enemy: {fileID: 3917117079549691510, guid: 9b31e5d5b126bfd4e823fd0812815e6b, type: 3}
+      number: 5
+      time_between_spawn: 10
+    - enemy: {fileID: 4697328654112201530, guid: 153fa6b908568be448ba68b21534898b, type: 3}
+      number: 5
+      time_between_spawn: 15
+    theme: Wave 16-19
+  - enemies:
+    - enemy: {fileID: 8001342994039869918, guid: e8813c8ed6bd99540845832ead65eb3c, type: 3}
+      number: 1
+      time_between_spawn: 0
+    theme: Boss 4
+  spawn_position:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  time_between_wave: 5
+  waveUI: {fileID: 0}
+  trans_scene: {fileID: 0}
+  game_manager: {fileID: 0}

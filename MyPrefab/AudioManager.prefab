@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4018170196452172730
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4018170196452172732}
+  - component: {fileID: 4018170196452172733}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4018170196452172732
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4018170196452172730}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -32.690556, y: -4.622471, z: -20.965117}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4018170196452172733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4018170196452172730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c38e27b3305049b4c91877be9abe76a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Main Theme
+    clip: {fileID: 8300000, guid: d835930e568ced34db585c37dee5d53a, type: 3}
+    volumn: 0.5
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Wave 1-4
+    clip: {fileID: 8300000, guid: 34a8540f1da09cf49a4af54a0d4f0b9b, type: 3}
+    volumn: 0.5
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Wave 6-9
+    clip: {fileID: 8300000, guid: 53ab150c57abcf942adb6204180fab0b, type: 3}
+    volumn: 0.2
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Wave 11-14
+    clip: {fileID: 8300000, guid: c020fbb2a41488741a1529d2de9d0a54, type: 3}
+    volumn: 0.2
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Wave 16-19
+    clip: {fileID: 8300000, guid: 3d359b6992b7ab642af498572dd2bf51, type: 3}
+    volumn: 0.2
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Boss 1
+    clip: {fileID: 8300000, guid: 0366c059e5cd12a4a9e871d4bb4672f4, type: 3}
+    volumn: 0.1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Boss 2
+    clip: {fileID: 8300000, guid: 2481c3fbfa8ee504c92ddc35681f1ea7, type: 3}
+    volumn: 0.2
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Boss 3
+    clip: {fileID: 8300000, guid: d16f0dae55fdc9242a0bcc9e01ad27b3, type: 3}
+    volumn: 0.2
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Boss 4
+    clip: {fileID: 8300000, guid: 64b7029bf01605b4a96e27d7ac370c76, type: 3}
+    volumn: 0.2
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Game Over
+    clip: {fileID: 8300000, guid: 8e1a5c07aefd10b4fb3ce2bfb2043f7d, type: 3}
+    volumn: 0.3
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Ending
+    clip: {fileID: 8300000, guid: ec1191e214aafc041942e32e899f2432, type: 3}
+    volumn: 0.3
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Player Shoot
+    clip: {fileID: 8300000, guid: c825894c69a3f7a4280667edd9ef174e, type: 3}
+    volumn: 0.1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Small Enemy Shoot
+    clip: {fileID: 8300000, guid: bb49493e03eca3346bbd528c823ff7ca, type: 3}
+    volumn: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Enemy Shoot
+    clip: {fileID: 8300000, guid: 1812cdfffbe84614285a1d62905277ae, type: 3}
+    volumn: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Laser Collider
+    clip: {fileID: 8300000, guid: f04278a9d7935c648ac5f13cff8d788a, type: 3}
+    volumn: 0.2
+    pitch: 3
+    loop: 0
+    source: {fileID: 0}
+  - name: Rocket Explosion
+    clip: {fileID: 8300000, guid: 06f41a4b0bdd587489d01a98748feb20, type: 3}
+    volumn: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Ship Explosion
+    clip: {fileID: 8300000, guid: ee10a5da9b3ec8a4ab746c9cad5586d0, type: 3}
+    volumn: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Small Ship Explosion
+    clip: {fileID: 8300000, guid: 252f5e7e05781364287cbdfeeec8a99c, type: 3}
+    volumn: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Boss Explosion
+    clip: {fileID: 8300000, guid: 0a271ccc7e8258344b68e5d70ed909b4, type: 3}
+    volumn: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Power Up
+    clip: {fileID: 8300000, guid: fab1fba0692645843918ad9e7c443b2f, type: 3}
+    volumn: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Rocket Launch
+    clip: {fileID: 8300000, guid: 9fd27e7d714203548b07cfa975fdc761, type: 3}
+    volumn: 0.1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Ship Engine
+    clip: {fileID: 8300000, guid: 9e3fc328e6562354c8cb69d1070d4db4, type: 3}
+    volumn: 0.2
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
